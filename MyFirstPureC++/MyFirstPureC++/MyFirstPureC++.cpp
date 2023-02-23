@@ -2,10 +2,43 @@
 //
 
 #include <iostream>
+#include <string>
+using namespace std;
+
 
 int main()
 {
     std::cout << "Hello World!\n";
+    
+    int b = 5, c = 0;
+    
+    char charExample = 'a';
+
+    string stringExample = "Example";
+
+    int intExample = 1;
+
+    float fExample = 1.5f;
+
+    double dExample = 2.323123213;
+
+    bool bExample = false;
+
+    std::cout << charExample;
+
+
+    for (int a = 2; a <= b; a++)
+    {
+        c++;
+        std::cout << a;
+        if (a >= b)
+        {
+            std::cout << "What The F*** am i Writing!!!!!!!\n";
+            std::cout << c;
+        }
+    }
+
+   
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
