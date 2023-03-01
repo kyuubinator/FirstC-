@@ -161,37 +161,43 @@ void ConvertRealTime()
 
 void Pyramid() 
 {
+
+    // not working
     int input;
 
     std::cout << "insert Piramid Height";
     std::cin >> input;
 
-    for (int i = 0; i < input; i++)
+    /*for (int i = 0; i < input; i++)
     {
-        std::cout << "*";
-    }
-    for (int i = input ; i > 0; i--)
-    {
-
-    }
-}
-
-int main()
-{
-    //ConvertToTime();
-
-    ConvertRealTime();
-
-    //VarLearn();
-
-    //AddCount();
-
-    //BiggestAlways(); Faulty
-
-    //FindBiggest();
+        for (int a = input ; a > 0; a--)
+        {
+            std:cout << "*";
+        }
+        
+        std::cout << "\n";
+    }*/
     
-    //Triangle();
 }
+
+//int main()
+//{
+//    Pyramid();
+//
+//    //ConvertToTime();
+//
+//    //ConvertRealTime();
+//
+//    //VarLearn();
+//
+//    //AddCount();
+//
+//    //BiggestAlways(); Faulty
+//
+//    //FindBiggest();
+//    
+//    //Triangle();
+//}
 
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração

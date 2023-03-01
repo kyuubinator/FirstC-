@@ -1,2 +1,22 @@
-﻿  MyFirstPureC++.cpp
-  MyFirstPureC++.vcxproj -> C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\Debug\MyFirstPureC++.exe
+﻿  BotFight.cpp
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.cpp(4,1): error C2628: 'PlayerFight' seguido por 'void' é inválido (você esqueceu um ';'?)
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.cpp(5,1): error C2556: 'PlayerFight BotFight::Attack(void)': função sobrecarregada difere apenas pelo tipo de retorno de 'void BotFight::Attack(void)'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(10,7): message : consulte a declaração de 'BotFight::Attack'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.cpp(4,16): error C2371: 'BotFight::Attack': redefinição; tipos básicos diferentes
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(10,7): message : consulte a declaração de 'BotFight::Attack'
+  Main.cpp
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(3,1): error C2236: token inesperado 'class'. Você esqueceu um ';'?
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2059: erro de sintaxe: '{'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\Main.cpp(11,2): error C3861: 'playerBotFight': identificador não encontrado
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\Main.cpp(27,2): error C2065: 'BotFight': identificador não declarado
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\Main.cpp(27,11): error C2146: erro de sintaxe: ';' ausente antes do identificador 'bot'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\Main.cpp(27,11): error C2065: 'bot': identificador não declarado
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\Main.cpp(33,6): error C2065: 'bot': identificador não declarado
+  PlayerFight.cpp
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(3,1): error C2236: token inesperado 'class'. Você esqueceu um ';'?
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2059: erro de sintaxe: '{'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2143: erro de sintaxe: ';' ausente antes de '{'
+C:\Users\Aluno\Documents\SourceTree\C++\FirstC++\MyFirstPureC++\MyFirstPureC++\BotFight.h(4,1): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+  Gerando Código...
